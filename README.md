@@ -1,38 +1,42 @@
-![Screenshot (33)](https://github.com/ER-ARMAN/Nextg-Growth-Labs/assets/122722847/a5a7a518-72be-4e71-b192-9a5728b669f9)## Next Growth Lab Bangalore Software Pvt Ltd -
+                                       ## Next Growth Lab Bangalore Software Pvt Ltd -
 
----Er -----Arman----arman2sde@gmail.com--9110924385
+                                 ---Er -----Arman----arman2sde@gmail.com--9110924385
 
                                             ------Home----Page --------
 
-![Screenshot (33)](https://github.com/ER-ARMAN/Nextg-Growth-Labs/assets/122722847/67a0b1b1-9df5-480a-8850-0441ab8fc7a8)
+
+   ![Screenshot (33)](https://github.com/ER-ARMAN/Nextg-Growth-Labs/assets/122722847/c0bbf414-c10c-4b84-ba8a-a3ed7ff8d9c5)
+      
 
 
+                                           ------Featured-----Categories -------
 
-                                           ------Featured-----Categories ----------
 
-
-![Screenshot (34)](https://github.com/ER-ARMAN/Nextg-Growth-Labs/assets/122722847/d156c5bf-125b-4dbd-8b65-f9eb5269009d)
+![Screenshot (34)](https://github.com/ER-ARMAN/Nextg-Growth-Labs/assets/122722847/5b6ad1ae-1a27-47b5-bed4-c07858e54b12)
 
 
 
                                           ----- Footers ---------Section ------
 
 
-![Screenshot (37)](https://github.com/ER-ARMAN/Nextg-Growth-Labs/assets/122722847/fa2c8ee5-3ab6-41ad-adc6-6b3463f0a485)
-
-
-                                          ------Add -----To --Cards-----
-
-
-![Screenshot (39)](https://github.com/ER-ARMAN/Nextg-Growth-Labs/assets/122722847/e7267885-4e14-4311-92f3-39779df410a3)
+![Screenshot (37)](https://github.com/ER-ARMAN/Nextg-Growth-Labs/assets/122722847/d30ca146-82af-4c3d-a70d-7a10a02ccaec)
 
 
 
-                                       ------Signup----- Login-------
+                                            ------Add -----To --Cards-----
 
 
 
-![Screenshot (40)](https://github.com/ER-ARMAN/Nextg-Growth-Labs/assets/122722847/fbbe1994-8bdf-4356-bad1-602aa7bcc3ff)
+![Screenshot (39)](https://github.com/ER-ARMAN/Nextg-Growth-Labs/assets/122722847/535269e2-a197-4abf-b185-7b939751b1d5)
+
+
+
+                                            ------Signup----- Login-------
+
+
+![Screenshot (40)](https://github.com/ER-ARMAN/Nextg-Growth-Labs/assets/122722847/1ea4018c-14d5-4984-ada2-2dd10eb84922)
+
+
 
 
 
