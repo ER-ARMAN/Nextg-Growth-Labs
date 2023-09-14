@@ -1,0 +1,31 @@
+// base styles
+@import './base/variables';
+@import './base/mixins';
+@import './base/animation';
+@import './base/global';
+@import './base/helper';
+
+// components
+@import './components/social-icons';
+@import './components/btn';
+@import './components/site-header';
+@import './components/banner';
+@import './components/title';
+@import './components/products';
+@import './components/offer';
+@import './components/services';
+@import './components/site-footer';
+@import './components/products-banner';
+@import './components/single-product';
+@import './components/single-product-info';
+@import './components/signup';
+@import './components/cart';
+
+// Home Page Styles
+@import './pages/home/featured-category';
+
+// About Page Styles
+@import './pages/about/about';
+
+// Blog Page Styles
+@import './pages/blog/blog';

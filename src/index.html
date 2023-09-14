@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elessi | Home</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" />
+    <!-- GlideJS -->
+    <link
+      rel="stylesheet"
+      href="../node_modules/@glidejs/glide/dist/css/glide.core.min.css"
+    />
+  </head>
+  <body>
+    <!-- ############### site navbar header ############### -->
+    <header class="site-header">
+      <div class="container">
+        <!-- navbar -->
+        <nav class="site-header__navbar">
+          <!-- navbar toggle icon -->
+          <span class="site-header__toggle">
+            <i class="fas fa-bars"></i>
+          </span>
+          <!-- navbar menu -->
+          <div class="site-header__list-overlay">
+            <div class="site-header__list-container">
+              <div class="site-header__inner-list-container">
+                <div class="social-icons">
+                  <a href="#" class="social-icons__icon">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+
+                  <a href="#" class="social-icons__icon">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+
+                  <a href="#" class="social-icons__icon">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+
+                  <a href="#" class="social-icons__icon">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+
+                <ul class="site-header__list">
+                  <li class="site-header__item">
+                    <a href="index.html" class="site-header__link">Home</a>
+                  </li>
+
+                  <li class="site-header__item">
+                    <a href="about.html" class="site-header__link">About</a>
+                  </li>
+
+                  <li class="site-header__item">
+                    <a href="blog.html" class="site-header__link">Blog</a>
+                  </li>
+
+                  <li class="site-header__item">
+                    <a href="#" class="site-header__link">FAQ</a>
+                  </li>
+
+                  <li class="site-header__item">
+                    <a href="singup.html" class="site-header__link">Sign Up</a>
+                  </li>
+                </ul>
+                <div class="site-header__list-logo-container">
+                  <a href="index.html">
+                    <img
+                      src="./assets/images/dark-logo.webp"
+                      alt="elesi company logo"
+                      class="site-header__list-logo"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- navbar logo -->
+          <div class="site-header__logo-container">
+            <a href="index.html">
+              <img
+                src="./assets/images/logo.webp"
+                alt="Elessi company logo"
+                class="site-header__logo"
+              />
+            </a>
+          </div>
+          <!-- navbar icons -->
+          <div class="site-header__icons">
+            <a href="singup.html" class="site-header__icon">
+              <i class="fas fa-user"></i>
+            </a>
+            <span class="site-header__icon">
+              <i class="far fa-heart"></i>
+            </span>
+            <span class="site-header__icon">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="site-header__count bounce">0</span>
+            </span>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- ############### End site navbar header ############### -->
+
+    <!-- ############### cart sidebar ############### -->
+    <div class="cart">
+      <aside class="cart__content">
+        <div class="cart__heading">
+          <h4 class="cart__title">YOUR CART</h4>
+          <span class="cart__close-icon">
+            <i class="fas fa-times"></i>
+          </span>
+        </div>
+
+        <div class="cart__items">
+          <div class="cart__product" data-id="">
+            <div class="cart__product-image-container">
+              <img
+                src="./assets/images/all images/1-t-shirt/t-shirt-1/t-shirt-1.jpg"
+                class="cart__product-image"
+              />
+            </div>
+            <div class="cart__product-info">
+              <h4 class="cart__product-name">T-Shirt</h4>
+              <p class="cart__product-price">$00.00</p>
+              <button class="cart__product-remove" data-id="1">remove</button>
+            </div>
+            <div class="cart__product-count-btns">
+              <button
+                class="cart__product-increase-icon cart__icons-amount"
+                data-id="1"
+              >
+                <i class="fas fa-chevron-up"></i>
+              </button>
+              <p class="cart__product-amount" data-id="1">0</p>
+              <button
+                class="cart__product-decrease-icon cart__icons-amount"
+                data-id="1"
+              >
+                <i class="fas fa-chevron-down"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <footer class="cart__footer">
+          <h3 class="cart__total">total: 00.00</h3>
+        </footer>
+      </aside>
+    </div>
+    <!-- ############### End cart sidebar ############### -->
+
+    <!-- ############### banner section ############### -->
+    <div class="banner overflow-hidden">
+      <div class="banner__hero">
+        <h3
+          class="banner__subtitle"
+          data-aos="fade-right"
+          data-aos-duration="800"
+          data-aos-delay="200"
+        >
+          limited time
+        </h3>
+        <h1
+          class="banner__title"
+          data-aos="fade-right"
+          data-aos-duration="800"
+          data-aos-delay="400"
+        >
+          30% off <br />
+          <span
+            class="banner__title--promo-code"
+            data-aos="fade-right"
+            data-aos-duration="800"
+            data-aos-delay="600"
+            >promo cod</span
+          >
+        </h1>
+        <a
+          href="#"
+          class="site-button site-button--small"
+          data-aos="fade-right"
+          data-aos-duration="800"
+          data-aos-delay="600"
+          >shop now</a
+        >
+      </div>
+    </div>
+    <!-- ############### End banner section ############### -->
+
+    <!-- ############### featured section ############### -->
+    <section class="featured-category py-5 overflow-hidden">
+      <div class="container">
+        <!-- global title -->
+        <div class="row">
+          <div class="title">
+            <span
+              class="title__heading"
+              data-aos="fade-right"
+              data-aos-delay="600"
+              >Featured Categories</span
+            >
+            <div
+              class="title__underline"
+              data-aos="fade-left"
+              data-aos-delay="600"
+            ></div>
+          </div>
+        </div>
+        <!-- End global title -->
+        <div class="glide featured-category__slider">
+          <div data-glide-el="track" class="glide__track">
+            <ul class="glide__slides">
+              <li class="glide__slide featured-category__image-container">
+                <a href="tshirt.html">
+                  <img
+                    class="featured-category__image same-width"
+                    src="./assets/images/home/featured/t-shirt-1.jpg"
+                  />
+                  <p class="featured-category__text">cloth</p>
+                </a>
+              </li>
+              <li class="glide__slide">
+                <a href="masks.html">
+                  <img
+                    class="featured-category__image same-width"
+                    src="./assets/images/home/featured/mask1.jpg"
+                  />
+                  <p class="featured-category__text">medical mask</p>
+                </a>
+              </li>
+              <li class="glide__slide">
+                <a href="phone.html">
+                  <img
+                    class="featured-category__image same-width"
+                    src="./assets/images/home/featured/phon-cover.jpg"
+                  />
+                  <p class="featured-category__text">Airpods</p>
+                </a>
+              </li>
+              <li class="glide__slide">
+                <a href="boots.html">
+                  <img
+                    class="featured-category__image same-width"
+                    src="./assets/images/home/featured/boot.jpg"
+                  />
+                  <p class="featured-category__text">boots</p>
+                </a>
+              </li>
+              <li class="glide__slide">
+                <a href="bags.html">
+                  <img
+                    class="featured-category__image same-width"
+                    src="./assets/images/home/featured/bag13.jpg"
+                  />
+                  <p class="featured-category__text">bag</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ############### End featured section ############### -->
+
+    <!-- ############### recommend section ############### -->
+    <section class="products py-3 overflow-hidden">
+      <div class="container">
+        <!-- global title -->
+        <div class="row">
+          <div class="title">
+            <span
+              class="title__heading"
+              data-aos="fade-right"
+              data-aos-delay="400"
+              >Recommend for you</span
+            >
+            <div
+              class="title__underline"
+              data-aos="fade-left"
+              data-aos-delay="400"
+            ></div>
+          </div>
+        </div>
+        <!-- End global title -->
+        <div class="row" id="recommen-products"></div>
+      </div>
+    </section>
+    <!-- ############### End recommend section ############### -->
+
+    <!-- ############### offer section ############### -->
+    <section class="py3 overflow-hidden">
+      <div class="container">
+        <div class="row">
+          <!-- single item -->
+          <div
+            class="col col-md-6 col-lg-4 mx-auto"
+            data-aos="fade-right"
+            data-aos-delay="300"
+          >
+            <article class="offer">
+              <div class="offer__image-container">
+                <img
+                  class="offer__image"
+                  src="./assets/images/home/offer/offer3.webp"
+                  alt="offer"
+                />
+              </div>
+              <div class="offer__hero">
+                <h4 class="offer__title">
+                  bag with <br />
+                  rose pattern
+                </h4>
+                <p class="offer__text">salse of 25%</p>
+              </div>
+            </article>
+          </div>
+          <!-- End single item -->
+
+          <!-- single item -->
+          <div
+            class="col-12 col-md-6 col-lg-4 mx-auto"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <article class="offer">
+              <div class="offer__image-container">
+                <img
+                  class="offer__image"
+                  src="./assets/images/home/offer/offer1.webp"
+                  alt="offer"
+                />
+              </div>
+
+              <div class="offer__hero">
+                <h4 class="offer__title">
+                  bag with <br />
+                  rose pattern
+                </h4>
+                <p class="offer__text">salse of 25%</p>
+              </div>
+            </article>
+          </div>
+          <!-- End single item -->
+
+          <!-- single item -->
+          <div
+            class="col-12 col-md-6 col-lg-4 mx-auto"
+            data-aos="fade-left"
+            data-aos-delay="300"
+          >
+            <article class="offer">
+              <div class="offer__image-container">
+                <img
+                  class="offer__image"
+                  src="./assets/images/home/offer/offer2.webp"
+                  alt="offer"
+                />
+              </div>
+
+              <div class="offer__hero">
+                <h4 class="offer__title">
+                  bag with <br />
+                  rose pattern
+                </h4>
+                <p class="offer__text">salse of 25%</p>
+              </div>
+            </article>
+          </div>
+          <!-- End single item -->
+        </div>
+      </div>
+    </section>
+    <!-- ############### End offer section ############### -->
+
+    <!-- ############### offer banner section ############### -->
+    <div class="banner banner--offer">
+      <div class="banner__hero">
+        <h3 class="banner__subtitle" data-aos="fade-right" data-aos-delay="200">
+          limited time
+        </h3>
+        <h1
+          class="banner__title banner__title--offer"
+          data-aos="fade-right"
+          data-aos-delay="400"
+        >
+          Up to 50% Off <br />
+          <span class="banner__title--promo-code">
+            All T-Shirt
+            <span
+              class="banner__title--and"
+              data-aos="fade-right"
+              data-aos-delay="400"
+              >&</span
+            >
+            Accessories</span
+          >
+        </h1>
+        <a
+          href="#"
+          class="site-button site-button--small"
+          data-aos="fade-right"
+          data-aos-delay="600"
+          >shop now</a
+        >
+      </div>
+    </div>
+    <!-- ############### End offer banner section ############### -->
+
+    <!-- ############### services section ############### -->
+    <section class="services py-5">
+      <div class="container">
+        <div class="row">
+          <!-- single item -->
+          <div class="col-10 col-md-6 col-lg-3 mx-auto">
+            <article
+              class="services__item overflow-hidden"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <span
+                class="services__icon"
+                data-aos="fade-right"
+                data-aos-delay="300"
+              >
+                <i class="fas fa-shipping-fast"></i>
+              </span>
+              <h5
+                class="services__title"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                Free Shipping
+              </h5>
+              <p
+                class="services__subtitle"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
+                Free Shipping for all US order
+              </p>
+            </article>
+          </div>
+          <!-- End single item -->
+
+          <!-- single item -->
+          <div class="col-10 col-md-6 col-lg-3 mx-auto">
+            <article
+              class="services__item overflow-hidden"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <span
+                class="services__icon"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <i class="fas fa-headset"></i>
+              </span>
+              <h5
+                class="services__title"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                Support 24/7
+              </h5>
+              <p
+                class="services__subtitle"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
+                We support 24h a day
+              </p>
+            </article>
+          </div>
+          <!-- End single item -->
+
+          <!-- single item -->
+          <div class="col-10 col-md-6 col-lg-3 mx-auto">
+            <article
+              class="services__item overflow-hidden"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <span
+                class="services__icon"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <i class="fas fa-redo"></i>
+              </span>
+              <h5
+                class="services__title"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                100% Money Back
+              </h5>
+              <p
+                class="services__subtitle"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
+                You have 30 days to Return
+              </p>
+            </article>
+          </div>
+          <!-- End single item -->
+
+          <!-- single item -->
+          <div class="col-10 col-md-6 col-lg-3 mx-auto">
+            <article
+              class="services__item"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <span
+                class="services__icon"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <i class="fas fa-gift"></i>
+              </span>
+              <h5
+                class="services__title"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                Payment Secure
+              </h5>
+              <p
+                class="services__subtitle"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
+                We ensure secure payment
+              </p>
+            </article>
+          </div>
+          <!-- End single item -->
+        </div>
+      </div>
+    </section>
+    <!-- ############### End services section ############### -->
+
+    <!-- ############### footer section ############### -->
+    <footer class="site-footer py-5">
+      <div class="container">
+        <div class="row">
+          <!-- single item -->
+          <div class="col-10 col-md-6 col-lg-3 mx-auot margin-bottom">
+            <ul class="site-footer__list">
+              <li
+                class="site-footer__item margin-bottom"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <a href="index.html" class="site-footer__logo">
+                  <img
+                    src="./assets/images/logo.webp"
+                    alt="next company logo"
+                  />
+                </a>
+              </li>
+
+              <li
+                class="site-footer__item"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <p class="site-footer__text">Next Growth company Ecommerce</p>
+              </li>
+
+              <li
+                class="site-footer__item"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <p class="site-footer__text">Er Arman & Egypt.</p>
+              </li>
+
+              <li
+                class="site-footer__item"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <p class="site-footer__text">(+91)-911-0924-385</p>
+              </li>
+
+              <li
+                class="site-footer__item"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
+                <p class="site-footer__text">arman2sde@gmail.com</p>
+              </li>
+
+              <li
+                class="site-footer__item"
+                data-aos="fade-up"
+                data-aos-delay="600"
+              >
+                <p class="site-footer__text">Next,Growth Lab Bangalore</p>
+              </li>
+            </ul>
+          </div>
+          <!-- End single item -->
+
+          <!-- single item -->
+          <div class="col-10 col-md-6 col-lg-3 mx-auot margin-bottom">
+            <ul class="site-footer__list">
+              <li class="site-footer__item margin-bottom">
+                <div class="social-icons">
+                  <a
+                    href=""
+                    class="social-icons__icon"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+
+                  <a
+                    href=""
+                    class="social-icons__icon"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
+                    <i class="fab fa-twitter"></i>
+                  </a>
+
+                  <a
+                    href=""
+                    class="social-icons__icon"
+                    data-aos="fade-up"
+                    data-aos-delay="400"
+                  >
+                    <i class="fab fa-youtube"></i>
+                  </a>
+
+                  <a
+                    href=""
+                    class="social-icons__icon"
+                    data-aos="fade-up"
+                    data-aos-delay="500"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </li>
+
+              <li
+                class="site-footer__item"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <a class="site-footer__link" href="#">Contact Us</a>
+              </li>
+
+              <li
+                class="site-footer__item"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <a class="site-footer__link" href="#">Designers</a>
+              </li>
+
+              <li
+                class="site-footer__item"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <a class="site-footer__link" href="#">Terms & Conditions</a>
+              </li>
+
+              <li
+                class="site-footer__item"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
+                <a class="site-footer__link" href="#">Returns & Exchanges</a>
+              </li>
+
+              <li
+                class="site-footer__item"
+                data-aos="fade-up"
+                data-aos-delay="600"
+              >
+                <a class="site-footer__link" href="#">Shipping & Delivery</a>
+              </li>
+
+              <li
+                class="site-footer__item"
+                data-aos="fade-up"
+                data-aos-delay="700"
+              >
+                <a class="site-footer__link" href="#">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+          <!-- End single item -->
+
+          <!-- single item -->
+          <div class="col-10 col-md-6 col-lg-3 mx-auot margin-bottom">
+            <ul class="site-footer__list">
+              <li
+                class="site-footer__item margin-bottom"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <h2>Newsletter</h2>
+              </li>
+
+              <li
+                class="site-footer__item"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <a class="site-footer__link" href="#">Clothing</a>
+              </li>
+
+              <li
+                class="site-footer__item"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <a class="site-footer__link" href="#">Women</a>
+              </li>
+
+              <li
+                class="site-footer__item"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
+                <a class="site-footer__link" href="#">On Sale</a>
+              </li>
+
+              <li
+                class="site-footer__item"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
+                <a class="site-footer__link" href="#">Accessories</a>
+              </li>
+
+              <li
+                class="site-footer__item"
+                data-aos="fade-up"
+                data-aos-delay="600"
+              >
+                <a class="site-footer__link" href="#">New</a>
+              </li>
+
+              <li
+                class="site-footer__item"
+                data-aos="fade-up"
+                data-aos-delay="700"
+              >
+                <a class="site-footer__link" href="#">Men</a>
+              </li>
+            </ul>
+          </div>
+          <!-- End single item -->
+
+          <!-- single item -->
+          <div class="col-10 col-md-6 col-lg-3 mx-auot">
+            <ul class="site-footer__list">
+              <li class="site-footer__item margin-bottom">
+                <form class="site-footer__form d-flex">
+                  <input
+                    type="email"
+                    placeholder="Enter Your Email"
+                    class="flex-fill margin-right site-footer__placeholder"
+                    data-aos="fade-up"
+                    data-aos-delay="500"
+                  />
+                  <input
+                    type="submit"
+                    value="subscribe"
+                    class="site-button site-button--small site-button--normal"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  />
+                </form>
+              </li>
+
+              <li class="site-footer__item d-flex justify-content-between">
+                <p data-aos="fade-up" data-aos-delay="300">Monday - Friday</p>
+                <p data-aos="fade-up" data-aos-delay="400">08:00 - 20:00</p>
+              </li>
+
+              <li class="site-footer__item d-flex justify-content-between">
+                <p data-aos="fade-up" data-aos-delay="300">Saturday</p>
+                <p data-aos="fade-up" data-aos-delay="400">09:00 - 21:00</p>
+              </li>
+
+              <li class="site-footer__item d-flex justify-content-between">
+                <p data-aos="fade-up" data-aos-delay="300">Sunday</p>
+                <p data-aos="fade-up" data-aos-delay="400">13:00 - 22:00</p>
+              </li>
+            </ul>
+          </div>
+          <!-- End single item -->
+        </div>
+      </div>
+    </footer>
+    <!-- ############### End footer section ############### -->
+
+    <!-- ############### js file ############### -->
+    <!-- ############### js file ############### -->
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>

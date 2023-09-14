@@ -1,0 +1,39 @@
+.site-button {
+  display: inline-block;
+  background-color: $primary-color;
+  color: $main-white;
+  padding: 0.5rem 1.3rem;
+  border-radius: 0.3rem;
+  box-shadow: -1px 1px 6px 0px rgba(11, 157, 138, 1);
+  font-size: 0.72rem;
+  letter-spacing: $small-letter-spacing;
+  transition: $transition;
+
+  &--small {
+    @include atSmallestScreen {
+      padding: 0.5rem 1rem;
+      font-size: 0.625rem;
+    }
+  }
+
+  &--normal {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: none;
+  }
+
+  &:hover {
+    box-shadow: none;
+    transform: translateY(-2px);
+  }
+
+  &--cart {
+    border: none;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
