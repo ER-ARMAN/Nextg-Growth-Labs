@@ -8,21 +8,24 @@
                                 ------Home----Page --------
 
 
-   ![Screenshot (33)](https://github.com/ER-ARMAN/Nextg-Growth-Labs/assets/122722847/c0bbf414-c10c-4b84-ba8a-a3ed7ff8d9c5)
+   ![Home Page](https://github.com/ER-ARMAN/Nextg-Growth-Labs/assets/122722847/57373132-9bf8-463a-b68a-1d8de7118c50)
+
       
 
 
                               ------Featured-----Categories -------
 
 
-![Screenshot (34)](https://github.com/ER-ARMAN/Nextg-Growth-Labs/assets/122722847/5b6ad1ae-1a27-47b5-bed4-c07858e54b12)
+![Featured Categories](https://github.com/ER-ARMAN/Nextg-Growth-Labs/assets/122722847/c3258753-043c-491c-ad2c-9f4cb7182694)
+
 
 
 
                               ----- Footers ---------Section ------
 
 
-![Screenshot (37)](https://github.com/ER-ARMAN/Nextg-Growth-Labs/assets/122722847/d30ca146-82af-4c3d-a70d-7a10a02ccaec)
+![Featured Categories](https://github.com/ER-ARMAN/Nextg-Growth-Labs/assets/122722847/134d1e3a-20f9-495c-9e89-c6c6204c8554)
+
 
 
 
@@ -30,14 +33,16 @@
 
 
 
-![Screenshot (39)](https://github.com/ER-ARMAN/Nextg-Growth-Labs/assets/122722847/535269e2-a197-4abf-b185-7b939751b1d5)
+![Add To Cards](https://github.com/ER-ARMAN/Nextg-Growth-Labs/assets/122722847/221a780c-dc67-4a59-9b32-9b52af984191)
+
 
 
 
                               ------Signup----- Login-------
 
 
-![Screenshot (40)](https://github.com/ER-ARMAN/Nextg-Growth-Labs/assets/122722847/1ea4018c-14d5-4984-ada2-2dd10eb84922)
+![signup login](https://github.com/ER-ARMAN/Nextg-Growth-Labs/assets/122722847/9984756d-4521-488b-97bb-1dbdbdd2134e)
+
 
 
 
